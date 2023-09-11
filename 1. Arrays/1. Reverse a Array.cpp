@@ -1,6 +1,6 @@
 /*
 
-Reverse a String
+Reverse an Array
 Expected Time Complexity: O(n)
 Expected Auxiliary Space: O(log(n))
 Constraints:
