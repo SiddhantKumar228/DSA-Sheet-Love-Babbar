@@ -1,18 +1,12 @@
-//{ Driver Code Starts
-// Initial Template for C++
-
 #include <bits/stdc++.h>
 using namespace std;
-
-// } Driver Code Ends
-// User function Template for C++
 
 class Solution
 {
 public:
     vector<int> nextPermutation(int n, vector<int> arr)
     {
-        // code here
+        //
         int k, l;
         for (k = n - 2; k >= 0; k--)
         {
@@ -41,8 +35,6 @@ public:
     }
 };
 
-//{ Driver Code Starts.
-
 int main()
 {
     int t;
@@ -63,4 +55,3 @@ int main()
     }
     return 0;
 }
-// } Driver Code Ends
