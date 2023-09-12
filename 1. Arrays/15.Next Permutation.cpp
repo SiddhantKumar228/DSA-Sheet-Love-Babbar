@@ -1,3 +1,14 @@
+/*
+
+Next Permutation
+Expected Time Complexity: O(N)
+Expected Auxiliary Space: O(1)
+
+Constraints:
+1 ≤ N ≤ 10000
+
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -6,7 +17,7 @@ class Solution
 public:
     vector<int> nextPermutation(int n, vector<int> arr)
     {
-        //
+        /******************************************* SOLUTION ********************************************/
         int k, l;
         for (k = n - 2; k >= 0; k--)
         {
@@ -32,6 +43,7 @@ public:
             reverse(arr.begin() + k + 1, arr.end());
         }
         return arr;
+        /***************************************************************************************************/
     }
 };
 
